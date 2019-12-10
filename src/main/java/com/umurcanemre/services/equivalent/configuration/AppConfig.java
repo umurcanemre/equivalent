@@ -22,7 +22,8 @@ public class AppConfig {
 		return new OpenAPI()
 	    		.components(new Components())
 	            .info(new Info().title("Equivalent API's")
-	            		.description("Metadata service for GUI's and other services")
+	            		.version("0.0.1")
+	            		.description("Equivalent service for GUI's and other services")
 	            		.contact(contact));
 	}
 }
