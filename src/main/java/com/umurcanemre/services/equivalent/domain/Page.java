@@ -21,7 +21,7 @@ public class Page {
 	private String url; 
 	
 	@OneToMany
-	private Set<Category> categories;
+	private Set<PageCategoryConnection> categories;
 
 	
 	@Override
