@@ -14,6 +14,7 @@ public class Category {
 	@GeneratedValue( strategy = GenerationType.SEQUENCE)
 	private long id;
 	private String name;
+	private String description;
 	
 	@Override
 	public String toString() {

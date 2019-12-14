@@ -18,7 +18,9 @@ public class Page {
 	@GeneratedValue( strategy = GenerationType.SEQUENCE)
 	private long id;
 	private String name;
-	private String url; 
+	private String url;
+	private String description;
+	private String countryCode;
 	
 	@OneToMany
 	private Set<PageCategoryConnection> categories;
